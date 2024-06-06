@@ -1,0 +1,14 @@
+dynamic_test_suite:
+  rules:
+    - when:
+        - src_changes: [src/*]
+      target:
+        - include_tags: [core]
+    - when:
+        - src_changes: [src/employees/*]
+      target:
+        - include_tags: [employees]
+    - when:
+        - src_changes: [src/items/*]
+      target:
+        - include_tags: [items]
