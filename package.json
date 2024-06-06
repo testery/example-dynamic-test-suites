@@ -1,0 +1,26 @@
+{
+  "name": "example-dynamic-test-suites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testery/example-dynamic-test-suites.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testery/example-dynamic-test-suites/issues"
+  },
+  "homepage": "https://github.com/testery/example-dynamic-test-suites#readme",
+  "dependencies": {
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.1"
+  }
+}
