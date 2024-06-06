@@ -48,8 +48,12 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'chrome'
-    }],
+        browserName: 'chrome',
+        browserVersion: 'stable',
+        'goog:chromeOptions': {
+          args: ['--use-fake-device-for-media-stream', '--use-fake-ui-for-media-stream']
+        }
+      }],
 
     //
     // ===================
