@@ -6,4 +6,4 @@ test_selection:
             - src/employees/*
       then:
         - include_tags:
-            - employee
+            - employees
