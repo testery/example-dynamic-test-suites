@@ -1,0 +1,9 @@
+test-selection:
+  rules:
+    - name: employees
+      when:
+        - src_changes:
+            - src/employees/*
+      then:
+        - include_tags:
+            - employee
