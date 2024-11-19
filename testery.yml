@@ -1,4 +1,4 @@
-test-selection:
+test_selection:
   rules:
     - name: employees
       when:
