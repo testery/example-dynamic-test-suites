@@ -25,7 +25,12 @@ let items = [
 	  "id": 203,
 	  "name": "Galactic Explorer VR Headset",
 	  "price": "$299.99"
-	}
+	},
+	{
+		"id": 204,
+		"name": "Galactic Explorer VR Headset Plus",
+		"price": "$399.99"
+	  }
   ];
 
 // Routes

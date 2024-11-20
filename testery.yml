@@ -7,3 +7,10 @@ test_selection:
       then:
         - include_tags:
             - employees
+    - name: items
+      when:
+        - src_changes:
+            - src/items/*
+      then:
+        - include_tags:
+            - items     
