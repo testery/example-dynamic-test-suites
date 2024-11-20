@@ -1,16 +1,9 @@
 test_selection:
   rules:
-    - name: employees
+    - name: noCore
       when:
         - src_changes:
-            - src/employees/*
+            - src/*
       then:
-        - include_tags:
-            - employees
-    - name: items
-      when:
-        - src_changes:
-            - src/items/*
-      then:
-        - include_tags:
-            - items     
+        - exclude_tags:
+            - core     
