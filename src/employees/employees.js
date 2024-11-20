@@ -9,6 +9,7 @@ let employees = [
 	{ id: 101, name: 'Jane Doe', age: 25, position: 'Web Developer'},
 	{ id: 102, name: 'Jim Doe', age: 22, position: 'Intern'},
 	{ id: 103, name: 'Jill Doe', age: 35, position: 'Project Manager'},
+	{ id: 104, name: 'James Doe', age: 42, position: 'Barista'}
 ];
 
 // Routes
