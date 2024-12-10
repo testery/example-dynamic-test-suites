@@ -1,9 +1,11 @@
 test_selection:
-  rules:
-    - name: employees
-      when:
-        - src_changes:
-            - src/employees/*
-      then:
-        - include_tags:
-            - employees
+  suites:
+    - default:
+      rules:
+        - employeeRule:
+        when:
+          - src_changes:
+              - src/employees/*
+        then:
+          - include_tags:
+              - employees
