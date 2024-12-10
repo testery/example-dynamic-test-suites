@@ -7,5 +7,5 @@ test_selection:
             - src_changes:
                 - src/*
           then:
-            - include_tags:
+            - exclude_tags:
                 - core   
