@@ -1,0 +1,18 @@
+test_selection:
+  suites:
+    - default:
+      rules:
+        - employeeRule:
+          when:
+            - src_changes:
+                - src/employees/*
+          then:
+            - include_tags:
+                - employees   
+        - itemRule:
+          when:
+            - src_changes:
+                - src/items/*
+          then:
+            - include_tags:
+                - items
