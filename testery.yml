@@ -1,9 +1,11 @@
 test_selection:
-  rules:
-    - name: noCore
-      when:
-        - src_changes:
-            - src/*
-      then:
-        - exclude_tags:
-            - core     
+  suites:
+    - default:
+      rules:
+        - rule1:
+          when:
+            - src_changes:
+                - src/*
+          then:
+            - include_tags:
+                - core   
